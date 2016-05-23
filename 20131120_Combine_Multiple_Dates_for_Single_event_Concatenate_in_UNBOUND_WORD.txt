@@ -1,0 +1,16 @@
+Combine concatenate - with periods
+
+=CONCATENATE(DATA!F2,CHAR(13),DATA!C2,"s, ",TEXT(DATA!D2,"mmm. d"),", ",TEXT(DATA!D3,"mmm. d"),", ",TEXT(DATA!D4,"mmm. d"),", ",TEXT(DATA!D5,"mmm. d"),", ",TEXT(DATA!D6,"mmm. d"),", ",TEXT(DATA!D7,"mmm. d"),", ",TEXT(DATA!D8,"mmm. d"),", ",TEXT(DATA!D9,"mmm. d"),", ",TEXT(DATA!D10,"mmm. d"),", ",TEXT(DATA!D11,"mmm. d"),", ",TEXT(DATA!D12,"mmm. d"),CHAR(13),DATA!G2,CHAR(13),DATA!I2)
+
+First Twelve Rows
+=CONCATENATE(DATA!F2,CHAR(13),DATA!C2,"s, ",TEXT((Table1[@Time]),"h:mm AM/PM"),CHAR(13),TEXT(DATA!D2,"mmm. d"),", ",TEXT(DATA!D3,"mmm. d"),", ",TEXT(DATA!D4,"mmm. d"),", ",TEXT(DATA!D5,"mmm. d"),", ",TEXT(DATA!D6,"mmm. d"),", ",TEXT(DATA!D7,"mmm. d"),", ",TEXT(DATA!D8,"mmm. d"),", ",TEXT(DATA!D9,"mmm. d"),", ",TEXT(DATA!D10,"mmm. d"),", ",TEXT(DATA!D11,"mmm. d"),", ",TEXT(DATA!D12,"mmm. d"),CHAR(13),DATA!G2,CHAR(13),DATA!I2,TEXT(DATA!I2),CHAR(13))
+
+rows 8-10 WORKING
+=CONCATENATE(DATA!F8,CHAR(13),DATA!C2,"s, ",TEXT((Table1[@Time]),"h:mm AM/PM"),CHAR(13),TEXT(DATA!D8,"mmm. d"),", ",TEXT(DATA!D9,"mmm. d"),", ",TEXT(DATA!D10,"mmm. d"),"",CHAR(13),DATA!G8,CHAR(13),DATA!I8)
+
+=CONCATENATE(DATA!F8,CHAR(13),DATA!C2,"s, ",TEXT((Table1[@Time]),"h:mm AM/PM"),CHAR(13),TEXT(DATA!D8,"mmm. d"),", ",TEXT(DATA!D9,"mmm. d"),", ",TEXT(DATA!D10,"mmm. d"),"",CHAR(13),DATA!G8,CHAR(13),DATA!I8)
+
+=CONCATENATE(DATA!F29,CHAR(13),DATA!C29,"s, ",TEXT((Table1[@Time]),"h:mm AM/PM"),CHAR(13),TEXT(DATA!D30,"mmm. d"),", ",TEXT(DATA!D32,"mmm. d"),", ",TEXT(DATA!D34,"mmm. d"),TEXT(DATA!D36,"mmm. d"),", ",TEXT(DATA!D38,"mmm. d"),", ",TEXT(DATA!D40,"mmm. d"),", ",TEXT(DATA!D42,"mmm. d"),", ",TEXT(DATA!D44,"mmm. d"),", ",TEXT(DATA!D46,"mmm. d"),", ",TEXT(DATA!D48,"mmm. d"),", ",CHAR(13),DATA!G29,CHAR(13),DATA!I29)
+
+11/22/2013 Worked for Story time on top row
+=CONCATENATE(DATA!F2,CHAR(13),DATA!C2,"s, ",TEXT(DATA!D2,"mmm. d"),", ",TEXT(DATA!D3,"mmm. d"),", ",TEXT(DATA!D4,"mmm. d"),", ",TEXT(DATA!D5,"mmm. d"),", ",TEXT(DATA!D6,"mmm. d"),", ",TEXT(DATA!D8,"mmm. d"),", ",TEXT(DATA!D9,"mmm. d"),", ",TEXT(DATA!D10,"mmm. d"),", ",TEXT(DATA!D11,"mmm. d"),", ",TEXT(DATA!D12,"mmm. d"),", ",TEXT(DATA!D13,"mmm. d"),CHAR(13),TEXT(Table1[@Time],"hh:mm AM/PM"),CHAR(13),Table1[@Description],CHAR(13),Table1[@TopicalArea2],CHAR(13))

@@ -1,0 +1,81 @@
+﻿X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=Story Time:/user/agrp_calsuite-MainCampus/Story Time
+
+to 
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=Story Time:/user/agrp_calsuite-MainCampus/Story Time\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/story-time_thumb.jpg\nX-BEDEWORK-IMAGE:http://www.library.nashville.org/images/bedework/story-time_generic.jpg
+
+==============
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Studio NPL:/user/agrp_calsuite-MainCampus/series/Studio NPL
+
+to
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Studio NPL:/user/agrp_calsuite-MainCampus/series/Studio NPL\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/studioNPL_Logo_thumb.jpg\nX-BEDEWORK-IMAGE:http://www.library.nashville.org/images/bedework/studioNPL_Logo_290x290.jpg
+	
+
+===============
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Seed Exchange:/user/agrp_calsuite-MainCampus/series/Seed Exchange
+
+to
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Seed Exchange:/user/agrp_calsuite-MainCampus/series/Seed Exchange\nX-BEDEWORK-IMAGE:http://events.library.nashville.org/pubcaldav/public/images/SeedLogo_noBlue.jpg\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/SeedLogo_thumb.jpg
+
+
+================
+
+SUMMARY:Puppet Truck presents Ellingtown
+
+=
+
+SUMMARY:Puppet Truck presents Ellingtown\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/wishingchair_ellingtown_thumb.jpg\nX-BEDEWORK-IMAGE:http://www.library.nashville.org/images/bedework/wishingchair_ellingtown.jpg
+
+
+
+
+==================
+
+SUMMARY:Classic Documentary Film Series
+
+to 
+
+SUMMARY:Classic Documentary Film Series\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/BellevueHistGenLogo_thumb.jpg\nX-BEDEWORK-IMAGE:http://www.library.nashville.org/images/bedework/BellevueHistGenLogo.jpg
+
+
+====================
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Nashville Reads:/user /agrp_calsuite-MainCampus/series/Nashville Reads
+
+to
+
+X-BEDEWORK-ALIAS;X-BEDEWORK-PARAM-DISPLAYNAME=series/Nashville Reads:/user /agrp_calsuite-MainCampus/series/Nashville Reads\nX-BEDEWORK-IMAGE:http://events.library.nashville.org/pubcaldav/public/images/logo_cropped.jpg
+
+=====================
+
+
+SUMMARY:SCORE Counseling
+
+to 	
+
+
+SUMMARY:SCORE Counseling\nX-BEDEWORK-IMAGE:http://www.librry.nashville.org/images/score_logo.gif\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/score_logo_thumb.gif
+http://events.library.nashville.org/pubcaldav/public/images/score_logo.gif
+
+========================
+
+SUMMARY:Job & Housing Help from Metro Social Services
+
+to 
+
+SUMMARY:Job & Housing Help from Metro Social Services\nX-BEDEWORK-IMAGE:http://www.librry.nashville.org/images/logo_mentalHealthCooperative.jpg\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/logo_mentalHealthCooperative_thumb.jpg
+
+
+-----------------------------------
+
+SUMMARY:Mental Health Cooperative Outreach
+
+to 
+
+SUMMARY:Mental Health Cooperative Outreach\nX-BEDEWORK-IMAGE:http://www.librry.nashville.org/images/logo_mentalHealthCooperative.jpg\nX-BEDEWORK-THUMB-IMAGE:http://www.library.nashville.org/images/bedework/logo_mentalHealthCooperative_thumb.jpg
+
+====================================
