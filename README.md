@@ -21,11 +21,20 @@ Install Microsoft Excel (versions 2006 or later), Notepad++
 
 ## Usage
 
-Use topical areas of your Bedework calendar to choose a set of events (up to 250 per load). Choose the Export/Widget Feedbuilder link to open up export options.
-Choose a date range. Choose to export desired number of events.
-Click on link to generate raw data displayed in web browser.
-Save web page as _events.do_.
-Open _events.do_ in Notepad++.
+### Generate Export File
+1. Use topical areas of your Bedework calendar to choose a set of events (up to 250 per load).
+2. Choose the Export/Widget Feedbuilder link to open up export options.
+3. Choose a date range. Choose to export desired number of events.
+4. Click on link to generate raw data displayed in web browser.
+5. Save web page as _events.do_.
+
+### Manipulate file to conform to NowPlayingNashville format
+1. Open _events.do_ in Notepad++.
+2. Open View Macros, run Macro, _TRANSFORM NOWPLAYING_.
+3. SELECT ALL, Copy, then Paste into the _DATA GOES HERE_ tab in Excel spreadsheet.
+
+### Clean up data in Excel for export to NowPlayingNashville
+
 
 
 ## License
