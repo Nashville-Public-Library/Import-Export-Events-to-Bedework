@@ -34,7 +34,10 @@ Install Microsoft Excel (versions 2006 or later), Notepad++
 3. SELECT ALL, Copy, then Paste into the _DATA GOES HERE_ tab in Excel spreadsheet.
 
 ### Clean up data in Excel for export to NowPlayingNashville
-
+1. You may want to use SORT to group duplicate shows. Confer with CFMT whether they want a show as a single row, or broken out into separate performances.
+2. Delete any empty rows. Delete any existing populated rows from earlier imports
+3. Check the NowPlayingNashville tab. Make sure all columns have data.
+4. Save worksheet as .csv file. Excel will ask to save individual worksheet. Confirm you are saving the individual sheet as a new .csv file. Change name of file to refer to new calendar set and its season.
 
 
 ## License
