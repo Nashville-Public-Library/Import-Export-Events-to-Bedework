@@ -11,13 +11,14 @@ Historically, events had been gathered in multiple Excel spreadsheets and upload
 ## Installation
 
 ### Software
-This project runs on recent versions of Windows Operating System.
-Install Microsoft Excel (versions 2006 or later), Notepad++
+This project runs on recent versions of Windows OS.
+Install [Microsoft Excel](http://www.microsoft.com/Microsoft/Excel‎) (versions 2006 or later) and [Notepad++](https://notepad-plus-plus.org/) (version 7.7 or later).
 
 ### Load Macros to Notepad++
 1. Go to the system files of Notepad++.
 2. Open the shortcuts.xml file, which contains a Macros section.
-3. Copy the contents of the Caps.bas files
+3. Add the top lines of code in this repository's shortcuts.xml file to your computer's local shortcuts.xml file in the NotePad++ files in your local Roaming profile Notepad++ directory.
+4. To confirm macros have been added, you should see TRANSFORM NOWPLAYING in NotePad++ > View > Macros list.
 
 ## Usage
 
