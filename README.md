@@ -1,4 +1,4 @@
-# Bedework Import-Export Events
+# Import-Export Events to Bedework
 
 ## Description
 Every quarter, staff enter events into [Bedework](https://www.apereo.org/projects/bedework) Enterprise Calendaring System. This project is used to distribute those events from the Bedework system to various platforms.
@@ -23,23 +23,22 @@ Install [Microsoft Excel](http://www.microsoft.com/Microsoft/Excel‎) (versions
 ## Usage
 
 ### Generate Export File
-1. Use topical areas of your Bedework calendar to choose a set of events (up to 250 per load).
-2. Choose the Export/Widget Feedbuilder link to open up export options.
-3. Choose a date range. Choose to export desired number of events.
-4. Click on link to generate raw data displayed in web browser.
-5. Save web page as _events.do_.
+- Use topical areas of your Bedework calendar to choose a set of events (up to 250 per load).
+- Choose the Export/Widget Feedbuilder link to open up export options.
+- Choose a date range. Choose to export desired number of events.
+- Click on link to generate raw data displayed in web browser.
+- Save web page as _events.do_.
 
 ### Manipulate file to conform to NowPlayingNashville format
-1. Open _events.do_ in Notepad++.
-2. Open View Macros, run Macro, _TRANSFORM NOWPLAYING_.
-3. SELECT ALL, Copy, then Paste into the _DATA GOES HERE_ tab in Excel spreadsheet.
+- Open _events.do_ in Notepad++.
+- Open View Macros, run Macro, _TRANSFORM NOWPLAYING_.
+- SELECT ALL, Copy, then Paste into the _DATA GOES HERE_ tab in the BEDEWORKCSV_PIVOT_TO_WORD Excel spreadsheet.
 
 ### Clean up data in Excel for export to NowPlayingNashville
-1. You may want to use SORT to group duplicate shows. Confer with CFMT whether they want a show as a single row, or broken out into separate performances.
-2. Delete any empty rows. Delete any existing populated rows from earlier imports
-3. Check the NowPlayingNashville tab. Make sure all columns have data.
-4. Save worksheet as .csv file. Excel will ask to save individual worksheet. Confirm you are saving the individual sheet as a new .csv file. Change name of file to refer to new calendar set and its season.
-
+- You may want to use SORT to group duplicate shows. Confer with CFMT whether they want a show as a single row, or broken out into separate performances.
+- Delete any empty rows. Delete any existing populated rows from earlier imports
+- Check the NowPlayingNashville tab. Make sure all columns have data.
+- Save worksheet as .csv file. Excel will ask to save individual worksheet. Confirm you are saving the individual sheet as a new .csv file. Change name of file to refer to new calendar set and its season.
 
 ## License
 Code is made available under the [GNU Lesser General Public License v3.0](https://choosealicense.com/licenses/lgpl-3.0/)
